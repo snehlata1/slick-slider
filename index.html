@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="eng">
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta http-equiv="X-UA-Compatible" content="ie=edge">
+      <title>flower shop</title>
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <link rel="stylesheet" type="text/css" media="screen" href="css/bootstrap.min.css">
+      <link rel="stylesheet" type="text/css" media="screen" href="css/style.css" /> 
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+      <link rel="stylesheet" type="text/css" href="css/slick.css"/>
+      <link rel="icon" href="images/fav.png" sizes="32x32">
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+   </head>
+   <body>
+    <section class="nice_gift">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 gift-box">
+                        <div class="main">
+                                <div class="slider slider-for">
+                                  <div><h3>1</h3></div>
+                                  <div><h3>2</h3></div>
+                                  <div><h3>3</h3></div>
+                                </div>
+                                <div class="slider slider-nav">
+                                  <div><h3> to your <br>
+                                    beloved make a  <strong>nice <br>
+                                    gift</strong></h3>
+                                  <div class="images">
+                                    <img src="images/image.png">
+                                  </div>
+                                  <div class="text-main">
+                                  <div class="text_slider">
+                                    <p>It is a long established fact that a reader 
+                                      will be distracted by the readable content 
+                                      of a page when looking at its layout. the point 
+                                      of using lorem ipsum</p>
+                                  </div>
+                                  <div class="button_slider">
+                                    <button type="button" class="btn btn-danger">GO TO OUR SHOP</button>
+                                  </div>
+                                  <div class="text_slider1">
+                                    <p>It is a long established fact that a reader 
+                                      will be distracted by the readable content 
+                                      of a page when looking at its layout. the point 
+                                      of using lorem ipsum</p>
+                                  </div>
+                                  </div>
+
+                                  </div>
+                                  <div><h3> to your <br>
+                                    beloved make a  <strong>nice <br>
+                                    gift</strong></h3>
+                                    <div class="images">
+                                      <img src="images/image.png">
+                                    </div>
+                                    <div class="text-main">
+                                    <div class="text_slider">
+                                      <p>It is a long established fact that a reader 
+                                        will be distracted by the readable content 
+                                        of a page when looking at its layout. the point 
+                                        of using lorem ipsum</p>
+                                    </div>
+                                    <div class="button_slider">
+                                      <button type="button" class="btn btn-danger">GO TO OUR SHOP</button>
+                                    </div>
+                                    <div class="text_slider1">
+                                      <p>It is a long established fact that a reader 
+                                        will be distracted by the readable content 
+                                        of a page when looking at its layout. the point 
+                                        of using lorem ipsum</p>
+                                    </div>
+                                  </div>
+                                  </div>
+                                  <div><h3> to your <br>
+                                    beloved make a  <strong>nice <br>
+                                    gift</strong></h3>
+                                    <div class="images">
+                                      <img src="images/image.png">
+                                    </div>
+                                    <div class="text_main">
+                                    <div class="text_slider">
+                                      <p>It is a long established fact that a reader 
+                                        will be distracted by the readable content 
+                                        of a page when looking at its layout. the point 
+                                        of using lorem ipsum</p>
+                                    </div>
+                                    <div class="button_slider">
+                                      <button type="button" class="btn btn-danger">GO TO OUR SHOP</button>
+                                    </div>
+                                    <div class="text_slider1">
+                                      <p>It is a long established fact that a reader 
+                                        will be distracted by the readable content 
+                                        of a page when looking at its layout. the point 
+                                        of using lorem ipsum</p>
+                                    </div>
+                                    </div>
+
+                                  </div>
+                                </div>
+                        </div><!--main-->
+                </div><!--gift-box-->
+            </div><!--row-->
+        </div><!--container-->
+    </section><!--section close-->
+
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+              <script src="js/bootstrap.min.js"></script>
+               <script type="text/javascript" src="js/slick.min.js"></script> 
+               <script>
+                $('.slider-for').slick({
+   slidesToShow: 1,
+   slidesToScroll: 1,
+   arrows: false,
+   fade: true,
+   asNavFor: '.slider-nav'
+ });
+ $('.slider-nav').slick({
+   slidesToShow: 2,
+   slidesToScroll: 1,
+   asNavFor: '.slider-for',
+   dots: true,
+   focusOnSelect: true
+ });
+
+ $('a[data-slide]').click(function(e) {
+   e.preventDefault();
+   var slideno = $(this).data('slide');
+   $('.slider-nav').slick('slickGoTo', slideno - 1);
+ });
+               </script>
+   </body>
+   </html>
